@@ -17,7 +17,7 @@ export default function HomeScreen({ navigation }) {
 
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => alert('Tela Sobre Nós ainda não implementada')}
+        onPress={() => navigation.navigate('About')}
       >
         <Text style={styles.buttonText}>Sobre Nós</Text>
       </TouchableOpacity>
