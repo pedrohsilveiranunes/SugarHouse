@@ -31,6 +31,14 @@ export default function OrdersScreen() {
           <Text style={styles.buttonText}>Fazer Pedido</Text>
         </TouchableOpacity>
       </View>
+
+      <View style={styles.card}>
+        <Text style={styles.title}>Disponível no iFood</Text>
+        <Text style={styles.text}>
+          Você também pode fazer seus pedidos pelo iFood e receber no conforto da sua casa!
+        </Text>
+      </View>
+
     </ScrollView>
   );
 }
