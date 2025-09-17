@@ -26,6 +26,13 @@ export default function HomeScreen({ navigation }) {
       >
         <Text style={styles.buttonText}>Sobre Nós</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={() => navigation.navigate('Orders')}
+        >
+        <Text style={styles.buttonText}>Encomendar</Text>
+      </TouchableOpacity>
     </View>
   );
 }
